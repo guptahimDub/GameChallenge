@@ -63,7 +63,7 @@ public class ServiceClass {
 
 	@JmsListener(destination = "game_queue")
 	public void beginGame(UserInput inputNum) {
-		logger.info("Received Number in In-memory Queue " + inputNum.getNumber());
+		logger.info("Number present in In-memory Queue " + inputNum.getNumber());
 		restTemplate.postForObject(startGameUrl, inputNum, UserInput.class);
 	}
 
@@ -90,7 +90,7 @@ public class ServiceClass {
 		if (validation.validateUserInput(inputNum)) {
 			int inputNumber = inputNum.getNumber();
 
-			logger.info("Received number <- " + inputNumber);
+			logger.info("Number Accepted<- " + inputNumber);
 
 			if (inputNumber <= 0) {
 				logger.error("Error : Number cannot be Zero or Negative.");
@@ -111,7 +111,7 @@ public class ServiceClass {
 					logger.info("You win!");
 				} else {
 
-					logger.info("Sending number -> " + inputNum.getNumber());
+					logger.info("Number Sent-> " + inputNum.getNumber());
 
 					if (findNextPlayer(false)) {
 						restTemplate.postForObject(startGameUrl, inputNum, UserInput.class);
