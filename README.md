@@ -29,12 +29,7 @@ It plays the game between two players when input as a number is provided by the 
 
 ## Installation Steps
 1. Clone the Git Repository.
-2. Build the project using Maven.
-
-## Build Projects
-
-`mvn clean install` - under \GameChallenge
-
+2. Build the project using Maven: `mvn clean install` - under \GameChallenge
 3. The `jar` file will be created under the target folder - \target\GameTakeaway-0.0.1-SNAPSHOT.jar
 
 ## Usage
