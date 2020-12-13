@@ -65,3 +65,15 @@ Both have embedded Tomcat and In-memory ActiveMQ. The application can be accessi
 ## Functionality
  - When auto = "true" then random value will be given as the input number.
  - When given input manually auto = "flase" with input number.
+
+## Results
+
+### Invoked using Postman: http://localhost:8080/api/GameTakeaway/game/false?number=9997
+
+![tk1](https://user-images.githubusercontent.com/56262858/102020775-3d112800-3d73-11eb-8695-74b98daaf0f2.PNG)
+
+
+![tk2](https://user-images.githubusercontent.com/56262858/102020783-469a9000-3d73-11eb-8dcc-1924a4b32458.PNG)
+
+
+![tk3](https://user-images.githubusercontent.com/56262858/102020795-4ef2cb00-3d73-11eb-98af-9166b13a0d2e.PNG)
