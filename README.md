@@ -24,6 +24,7 @@ It plays the game between two players when input as a number is provided by the 
 - Lombok Java Library
 - In-memory ActiveMQ
 - Swagger API
+- RestTemplate
 - Maven
 
 ## Installation Steps
