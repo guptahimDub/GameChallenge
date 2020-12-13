@@ -58,6 +58,10 @@ Both have embedded Tomcat and In-memory ActiveMQ. The application can be accessi
 ## The Request can be initiated using POSTMAN or SWAGGER console.
  `http://localhost:8080/api/GameTakeaway/swagger-ui.html#!/GameTakeaway/` - SWAGGER URL for initiating GET and POST Request.
  
- ## Communication
+## Communication
  - RestTemplate for communication between Microservices.
  - ActiveMQ for sending the number in queue which is listened by other service.
+ 
+## Functionality
+ - When auto = "true" then random value will be given as the input number.
+ - When given input manually auto = "flase" with input number.
