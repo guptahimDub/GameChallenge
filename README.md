@@ -48,7 +48,7 @@ Both have embedded Tomcat and In-memory ActiveMQ. The application can be accessi
 `http://localhost:8081/api/GameTakeaway/checkServiceStatus` -> Check the Status of Player 2
 
 ### Automatic or Manually Start the Game
-`http://localhost:8080/api/GameTakeaway/game/true` -> Automatic Actvity for Player 1
+`http://localhost:8080/api/GameTakeaway/game/true` -> Automatic Actvity for Player 1                                            
 `http://localhost:8081/api/GameTakeaway/game/true` -> Automatic Actvity for Player 2
 
 `http://localhost:8080/api/GameTakeaway/game/false?number=185642` -> Manual Activity (Num Input here is 185642) for P1
