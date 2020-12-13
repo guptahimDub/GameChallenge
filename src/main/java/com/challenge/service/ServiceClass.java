@@ -90,7 +90,7 @@ public class ServiceClass {
 		if (validation.validateUserInput(inputNum)) {
 			int inputNumber = inputNum.getNumber();
 
-			logger.info("Number Accepted<- " + inputNumber);
+			logger.info("Number Accepted <- " + inputNumber);
 
 			if (inputNumber <= 0) {
 				logger.error("Error : Number cannot be Zero or Negative.");
@@ -111,7 +111,7 @@ public class ServiceClass {
 					logger.info("You win!");
 				} else {
 
-					logger.info("Number Sent-> " + inputNum.getNumber());
+					logger.info("Number Sent -> " + inputNum.getNumber());
 
 					if (findNextPlayer(false)) {
 						restTemplate.postForObject(startGameUrl, inputNum, UserInput.class);
