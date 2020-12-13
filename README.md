@@ -5,7 +5,8 @@
 - `Controller` - Consists of end-point urls.
 - `Model` file - Consists of an input number to be provided by user (manual) or random generated (auto generated).
 - `Service` file - Logic to play the game and communication between the two microservices are written.
-- `JUnit Test Cases` file - To perform the TDD using JUnit (Basic Testing).
+- `Validation` file - To validate the input entered by the user.
+- `JUnit Test Cases (Test Class)` file - To perform the TDD using JUnit (Basic Testing).
 - `Properties` file - Consisits of port details and http urls for two standalone spring boot applications.
 
 ## Standalone Game Application
@@ -34,8 +35,12 @@ It plays the game between two players when input as a number is provided by the 
 
 ## Usage
 Now execute the jar file using below two commands to run the two standalone spring boot applications
-1. `java -jar GameTakeaway-0.0.1-SNAPSHOT.jar --spring.config.name=application`  - First Service (Player 1)
-2. `java -jar GameTakeaway-0.0.1-SNAPSHOT.jar --spring.config.name=application2` - Second Service (Player 2)
+
+1. First Service (Player 1)
+`java -jar GameTakeaway-0.0.1-SNAPSHOT.jar --spring.config.location=classpath:/application.properties`
+
+2. Second Service (Player 2)
+`java -jar GameTakeaway-0.0.1-SNAPSHOT.jar --spring.config.location=classpath:/application2.properties` 
 
 Both have embedded Tomcat and In-memory ActiveMQ. The application can be accessible using the below URL.
 
