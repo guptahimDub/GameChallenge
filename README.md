@@ -72,8 +72,6 @@ Both have embedded Tomcat and In-memory ActiveMQ. The application can be accessi
 
 ![tk1](https://user-images.githubusercontent.com/56262858/102020775-3d112800-3d73-11eb-8695-74b98daaf0f2.PNG)
 
-
-![tk2](https://user-images.githubusercontent.com/56262858/102020783-469a9000-3d73-11eb-8dcc-1924a4b32458.PNG)
-
+![tk2](https://user-images.githubusercontent.com/56262858/102021090-54e9ab80-3d75-11eb-90e0-ed33cceb6464.PNG)
 
 ![tk3](https://user-images.githubusercontent.com/56262858/102020795-4ef2cb00-3d73-11eb-98af-9166b13a0d2e.PNG)
