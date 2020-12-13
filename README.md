@@ -36,10 +36,10 @@ It plays the game between two players when input as a number is provided by the 
 ## Usage
 Now execute the jar file using below two commands to run the two standalone spring boot applications
 
-1. First Service (Player 1)
+1. First Service (Player 1)                               
 `java -jar GameTakeaway-0.0.1-SNAPSHOT.jar --spring.config.location=classpath:/application.properties`
 
-2. Second Service (Player 2)
+2. Second Service (Player 2)                              
 `java -jar GameTakeaway-0.0.1-SNAPSHOT.jar --spring.config.location=classpath:/application2.properties` 
 
 Both have embedded Tomcat and In-memory ActiveMQ. The application can be accessible using the below URL.
