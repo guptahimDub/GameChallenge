@@ -12,7 +12,7 @@
 It plays the game between two players when input as a number is provided by the user.
 
 ## Prerequisites
-- [Java 8]
+- [Java]
 - [Lombok Java Library]
 - [Message Queue] 
 - [Tomcat 8.5] 
