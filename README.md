@@ -51,8 +51,8 @@ Both have embedded Tomcat and In-memory ActiveMQ. The application can be accessi
 `http://localhost:8080/api/GameTakeaway/game/true` -> Automatic Actvity for Player 1
 `http://localhost:8081/api/GameTakeaway/game/true` -> Automatic Actvity for Player 2
 
-`http://localhost:8080/api/GameTakeaway/game/false?number=185642` -> Manual Activity (Number Input here is 185642) for Player 1
-`http://localhost:8080/api/GameTakeaway/game/false?number=185642` -> Manual Activity (Number Input here is 185642) for Player 2
+`http://localhost:8080/api/GameTakeaway/game/false?number=185642` -> Manual Activity (Num Input here is 185642) for P1
+`http://localhost:8080/api/GameTakeaway/game/false?number=185642` -> Manual Activity (Num Input here is 185642) for P2
 
 ## The Request can be initiated using POSTMAN or SWAGGER console.
  `http://localhost:8080/api/GameTakeaway/swagger-ui.html#!/GameTakeaway/` - SWAGGER URL for initiating GET and POST Request.
@@ -60,7 +60,3 @@ Both have embedded Tomcat and In-memory ActiveMQ. The application can be accessi
  ## Communication
  - RestTemplate for communication between Microservices.
  - ActiveMQ for sending the number in queue which is listened by other service.
-
-5. Final Application Display
-
-6. When no input is provided and Click to Add button is pressed. (Validation Message)
